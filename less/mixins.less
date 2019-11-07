@@ -1,1 +1,20 @@
 // Mixins in here
+
+
+
+// parametric mixin
+
+// .custom-layout(center, center);
+// .custom-layouy(@justify, @align) {
+//   display: flex;
+//   justify-content: @justify;
+//   align-items: @align;
+// }
+
+
+.custom-btn (@br: 5px, @color: white, @bg: teal, @pad: 3px){
+  border-radius: @br;
+  color: @color;
+  background: @bg;
+  padding: @pad;
+}
