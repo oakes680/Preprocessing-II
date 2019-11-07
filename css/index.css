@@ -184,6 +184,9 @@ img {
 }
 .container-nav-bar {
   border-bottom: 1.5px dashed #c0c0c0;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 .nav-bar {
   display: flex;
